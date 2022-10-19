@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WHO AM I?
+:wave: I'm web developer, Having a great passion in both back-end and front-end development, Always eager to learn new things and work outside of my comfort zone.
 
-## Getting Started
+# Technology Stacks
+[![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=ffffff)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/-MySQL-%234479A1?style=flat&logo=MySQL&logoColor=white)](https://www.mysql.com/)
+[![HTML](https://img.shields.io/badge/-HTML-%23E34F26.svg?style=flat-square&logo=html5&logoColor=ffffff)](https://www.w3schools.com/html/)
+[![CSS](https://img.shields.io/badge/-CSS-239120?style=flat-square&logo=css3&logoColor=ffffff)](https://www.w3schools.com/css/)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=black&labelColor=%23F7DF1C&color=%23FFCE5A)](https://www.javascript.com/)
+[![TypeScript](https://img.shields.io/badge/-Typescript-3178C6?style=flat-square&logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
 
-First, run the development server:
+[![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=ffffff)](https://getbootstrap.com/)
+[![ReactJS](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=000000)](https://reactjs.org/)
+[![NextJS](https://img.shields.io/badge/-NextJS-000000?style=flat-square&logo=next.js&logoColor=ffffff)](https://nextjs.org/)
+[![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=ffffff)](https://laravel.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[![NodeJS](https://img.shields.io/badge/-NodeJS-339933?style=flat-square&logo=node.js&logoColor=ffffff)](https://nodejs.org)
+[![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)](https://git-scm.com/)
+[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=ffffff)](https://www.docker.com/)
+[![Linux](https://img.shields.io/badge/-Linux-%23555555?style=flat-square&logo=linux&logoColor=ffffff)](https://www.debian.org/) 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Connect with me
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=ffffff)](mailto:surasakv24@gmail.com) 
+[![Outlook](https://img.shields.io/badge/-Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=ffffff)](mailto:surasakv24@hotmail.com) 
+[![LinkedIn](https://img.shields.io/badge/-linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/surasak-viriyakitsombul-a6a3901a5/) 
+[![Twitter](https://img.shields.io/badge/-Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=ffffff)](https://twitter.com/surasakv24) 
