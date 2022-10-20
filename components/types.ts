@@ -1,3 +1,7 @@
 export type { LayoutProps } from './Layout/types'
 
-export type { ButtonProps } from './Buttons/types'
+export type {
+  ButtonProps,
+  ButtonLinkProps,
+  ButtonLinkDownloadProps,
+} from './Buttons/types'
