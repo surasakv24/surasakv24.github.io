@@ -16,4 +16,4 @@ export {
 
 export { ActiveLink } from './Link'
 
-export { Navbar, NavbarDark, NavbarBrand } from './Navbar/'
+export { Navbar, NavbarDark, NavbarBrand, NavbarNav, NavItem } from './Navbar/'

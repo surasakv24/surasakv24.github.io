@@ -1,3 +1,5 @@
 export { Navbar } from './Navbar'
 export { NavbarDark } from './NavbarDark'
 export { NavbarBrand } from './NavbarBrand'
+export { NavbarNav } from './NavbarNav'
+export { NavItem } from './NavItem'

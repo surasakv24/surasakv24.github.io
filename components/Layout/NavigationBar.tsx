@@ -1,8 +1,18 @@
-import { NavbarDark, NavbarBrand, ButtonLinkDownload } from '@/components'
+import {
+  NavbarDark,
+  NavbarBrand,
+  ButtonLinkDownload,
+  OffcanvasDark,
+  OffcanvasNavbarToggler,
+  NavbarNav,
+} from '@/components'
 import type { NavigationBarProps } from '@/components/types'
 
 export const NavigationBar = (props: NavigationBarProps) => {
-  const { title, resume } = props
+  const { title, resume, links } = props
+  const offcanvasId = 'offcanvasNavbar'
+  const offcanvasLabel = offcanvasId + 'Label'
+
   return (
     <NavbarDark className="navbar-expand-lg">
       <NavbarBrand href="/" title={title} />
@@ -13,6 +23,18 @@ export const NavigationBar = (props: NavigationBarProps) => {
         title="download cv"
         className="btn-outline-light order-lg-2"
       />
+      <OffcanvasNavbarToggler
+        target={`#${offcanvasId}`}
+        labelledby={offcanvasLabel}
+      />
+      <OffcanvasDark
+        title="Menu"
+        id={offcanvasId}
+        labelId={offcanvasLabel}
+        placement="end"
+      >
+        <NavbarNav items={links} />
+      </OffcanvasDark>
     </NavbarDark>
   )
 }

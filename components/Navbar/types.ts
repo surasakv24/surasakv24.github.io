@@ -8,3 +8,14 @@ export type NavbarBrandProps = HTMLAttributes<HTMLElement> & {
   href: string
   title: string
 }
+
+export type NavItemProps = {
+  href: string
+  title: string
+}
+
+export type LinkItems = NavItemProps[]
+
+export type NavbarNavProps = {
+  items: LinkItems
+}

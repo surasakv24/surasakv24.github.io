@@ -16,4 +16,9 @@ export type {
 
 export type { ActiveLinkProps } from './Link/types'
 
-export type { NavbarProps, NavbarBrandProps } from './Navbar/types'
+export type {
+  NavbarProps,
+  NavbarBrandProps,
+  NavbarNavProps,
+  NavItemProps,
+} from './Navbar/types'
