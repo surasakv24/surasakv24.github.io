@@ -12,3 +12,7 @@ export type NavigationBarProps = {
   resume: string
   links: Link[]
 }
+
+export type FooterProps = HTMLAttributes<HTMLDivElement> & {
+  text: string
+}

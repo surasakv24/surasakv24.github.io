@@ -7,5 +7,6 @@
     { "href": "/skills", "title": "Skills" },
     { "href": "/educations", "title": "Educations" },
     { "href": "/contacts", "title": "Contacts" }
-  ]
+  ],
+  "footer": "@2020 by surasakv24@gmail.com"
 }
