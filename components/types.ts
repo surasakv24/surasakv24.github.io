@@ -1,4 +1,4 @@
-export type { LayoutProps } from './Layout/types'
+export type { LayoutProps, NavigationBarProps } from './Layout/types'
 
 export type {
   ButtonProps,
@@ -15,3 +15,10 @@ export type {
 } from './Offcanvas/types'
 
 export type { ActiveLinkProps } from './Link/types'
+
+export type {
+  NavbarProps,
+  NavbarBrandProps,
+  NavbarNavProps,
+  NavItemProps,
+} from './Navbar/types'
