@@ -5,4 +5,5 @@ export type {
   ButtonLinkProps,
   ButtonLinkDownloadProps,
   ButtonDismissProps,
+  ButtonTogglerProps,
 } from './Buttons/types'

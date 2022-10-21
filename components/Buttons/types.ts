@@ -19,3 +19,8 @@ export type ButtonLinkDownloadProps = Omit<ButtonLinkProps, 'children'> & {
 export type ButtonDismissProps = ButtonProps & {
   dismiss: string
 }
+
+export type ButtonTogglerProps = ButtonProps & {
+  toggle: string
+  target: string
+}
