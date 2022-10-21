@@ -1,12 +1,13 @@
 import type { LayoutProps } from '@/components/types'
-import { NavigationBar } from '@/components'
+import { NavigationBar, FooterDark } from '@/components'
 import { getBrandTitle, getResumeFile } from '@/libs/profile'
-import { getLinks } from '@/libs/config'
+import { getFooter, getLinks } from '@/libs/config'
 
 export const Layout = ({ children }: LayoutProps) => {
   const brandTitle = getBrandTitle()
   const resume = getResumeFile()
   const links = getLinks()
+  const footer = getFooter()
 
   return (
     <div className="d-flex flex-column vh-100">
@@ -17,7 +18,7 @@ export const Layout = ({ children }: LayoutProps) => {
         <span>{children}</span>
       </main>
       <footer>
-        <span>footer</span>
+        <FooterDark text={footer} />
       </footer>
     </div>
   )

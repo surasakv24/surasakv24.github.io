@@ -1,4 +1,4 @@
-export { Layout, NavigationBar } from './Layout'
+export { Layout, NavigationBar, FooterDark } from './Layout'
 
 export {
   Button,

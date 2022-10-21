@@ -1,4 +1,8 @@
-export type { LayoutProps, NavigationBarProps } from './Layout/types'
+export type {
+  LayoutProps,
+  NavigationBarProps,
+  FooterProps,
+} from './Layout/types'
 
 export type {
   ButtonProps,
