@@ -7,3 +7,9 @@ export type {
   ButtonDismissProps,
   ButtonTogglerProps,
 } from './Buttons/types'
+
+export type {
+  OffcanvasProps,
+  OffcanvasHeaderProps,
+  OffcanvasTogglerProps,
+} from './Offcanvas/types'

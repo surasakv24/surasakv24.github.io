@@ -7,3 +7,9 @@ export {
   ButtonDismiss,
   ButtonToggler,
 } from './Buttons'
+
+export {
+  OffcanvasDark,
+  OffcanvasHeaderDark,
+  OffcanvasNavbarToggler,
+} from './Offcanvas'
