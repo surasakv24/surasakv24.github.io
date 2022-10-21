@@ -1,4 +1,4 @@
-export { Layout } from './Layout'
+export { Layout, NavigationBar } from './Layout'
 
 export {
   Button,
@@ -15,3 +15,5 @@ export {
 } from './Offcanvas'
 
 export { ActiveLink } from './Link'
+
+export { Navbar, NavbarDark, NavbarBrand } from './Navbar/'
