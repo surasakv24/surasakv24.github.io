@@ -1,0 +1,11 @@
+{
+  "imagePath": "/images",
+  "filePath": "/files",
+  "links": [
+    { "href": "/", "title": "Home" },
+    { "href": "/experiences", "title": "Experiences" },
+    { "href": "/skills", "title": "Skills" },
+    { "href": "/educations", "title": "Educations" },
+    { "href": "/contacts", "title": "Contacts" }
+  ]
+}
