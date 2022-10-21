@@ -1,19 +1,9 @@
-export const data: Data = require('@/data.json')
+import { get } from '@/libs/json'
+import type { JsonObject } from '@/libs/json/types'
+const data: JsonObject = require('@/data.json')
 
-type Data = {
-  [index: string]: any
-}
-
-const BRAND_TITLE_KEY = 'brandTitle'
-
-const hasKey = (key: string): boolean => {
-  return key in data
-}
-
-const getDataFromKey = (key: string) => {
-  return hasKey(key) ? data[key] : undefined
-}
+export const BRAND_TITLE_KEY = 'brandTitle'
 
 export const getBrandTitle = (): string => {
-  return getDataFromKey(BRAND_TITLE_KEY) ?? ''
+  return get(data, BRAND_TITLE_KEY) ?? ''
 }
