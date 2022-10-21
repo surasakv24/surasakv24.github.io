@@ -15,3 +15,7 @@ export type ButtonLinkDownloadProps = Omit<ButtonLinkProps, 'children'> & {
   download: string
   title: string
 }
+
+export type ButtonDismissProps = ButtonProps & {
+  dismiss: string
+}
