@@ -13,3 +13,5 @@ export {
   OffcanvasHeaderDark,
   OffcanvasNavbarToggler,
 } from './Offcanvas'
+
+export { ActiveLink } from './Link'

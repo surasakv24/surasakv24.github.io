@@ -13,3 +13,5 @@ export type {
   OffcanvasHeaderProps,
   OffcanvasTogglerProps,
 } from './Offcanvas/types'
+
+export type { ActiveLinkProps } from './Link/types'
