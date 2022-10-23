@@ -6,7 +6,13 @@ import {
   getProfileImageHeight,
 } from '@/libs/config'
 import type { JsonObject } from '@/libs/json/types'
-import type { BrandTitle, ResumeFile, Profile, Social } from './types'
+import type {
+  BrandTitle,
+  ResumeFile,
+  Profile,
+  Social,
+  Experience,
+} from './types'
 
 const data: JsonObject = require('@/data.json')
 
@@ -19,6 +25,7 @@ export const LASTNAME_KEY = 'lastname'
 export const SOCIALS_KEY = 'socials'
 export const JOB_TITLE_KEY = 'jobTitle'
 export const ABOUT_ME_KEY = 'aboutMe'
+export const EXPERIENCES_KEY = 'experiences'
 
 export const getBrandTitle = (): BrandTitle => {
   return get(data, BRAND_TITLE_KEY) ?? ''
@@ -69,4 +76,8 @@ export const getProfile = (): Profile => {
     socials: getSocials(),
     aboutMe: getAboutMe(),
   }
+}
+
+export const getExperiences = (): Experience[] => {
+  return get(data, EXPERIENCES_KEY) ?? []
 }
