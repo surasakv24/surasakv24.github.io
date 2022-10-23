@@ -4,11 +4,13 @@
 @import '@/modules/bootstrap/scss/functions';
 
 // 2. Include any default variable overrides here
+@import '@/styles/bootstrap/variables';
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import '@/modules/bootstrap/scss/variables';
 
 // 4. Include any default map overrides here
+@import '@/styles/bootstrap/maps';
 
 // 5. Include remainder of required parts
 @import '@/modules/bootstrap/scss/maps';

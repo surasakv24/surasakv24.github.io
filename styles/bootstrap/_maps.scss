@@ -1,0 +1,6 @@
+$custom-color: (
+  'dark-gunmetal': $dark-gunmetal,
+  'yankees-blue': $yankees-blue,
+  'bright-gray': $bright-gray,
+);
+$theme-colors: map-merge($theme-colors, $custom-color);
