@@ -31,3 +31,12 @@ export type Experience = {
   details?: string[]
   useTechnologies?: UseTechnology[]
 }
+
+export type TechnologySkill = {
+  image: string
+  title: string
+}
+
+export type Skill = {
+  technologies?: TechnologySkill[]
+}

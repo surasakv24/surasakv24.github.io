@@ -12,6 +12,8 @@ import type {
   Profile,
   Social,
   Experience,
+  TechnologySkill,
+  Skill,
 } from './types'
 
 const data: JsonObject = require('@/data.json')
@@ -26,6 +28,8 @@ export const SOCIALS_KEY = 'socials'
 export const JOB_TITLE_KEY = 'jobTitle'
 export const ABOUT_ME_KEY = 'aboutMe'
 export const EXPERIENCES_KEY = 'experiences'
+export const SKILLS_KEY = 'skills'
+export const SKILL_TECHNOLOGIES_KEY = 'technologies'
 
 export const getBrandTitle = (): BrandTitle => {
   return get(data, BRAND_TITLE_KEY) ?? ''
@@ -80,4 +84,22 @@ export const getProfile = (): Profile => {
 
 export const getExperiences = (): Experience[] => {
   return get(data, EXPERIENCES_KEY) ?? []
+}
+
+export const getSkill = (): Skill => {
+  return get(data, SKILLS_KEY) ?? undefined
+}
+
+export const getTechnologySkills = (): TechnologySkill[] => {
+  const skills = getSkill()
+  if (skills) {
+    const technologies = get(skills, SKILL_TECHNOLOGIES_KEY) ?? []
+    return technologies.map(({ image, title }: TechnologySkill) => {
+      return {
+        image: [getImagePath(), image].join('/').trim(),
+        title,
+      }
+    })
+  }
+  return []
 }
