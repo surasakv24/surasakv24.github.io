@@ -15,6 +15,7 @@ import type {
   TechnologySkill,
   Skill,
   Education,
+  Contact,
 } from './types'
 
 const data: JsonObject = require('@/data.json')
@@ -32,6 +33,7 @@ export const EXPERIENCES_KEY = 'experiences'
 export const SKILLS_KEY = 'skills'
 export const SKILL_TECHNOLOGIES_KEY = 'technologies'
 export const EDUCATIONS_KEY = 'educations'
+export const CONTACTS_KEY = 'contacts'
 
 export const getBrandTitle = (): BrandTitle => {
   return get(data, BRAND_TITLE_KEY) ?? ''
@@ -108,4 +110,14 @@ export const getTechnologySkills = (): TechnologySkill[] => {
 
 export const getEducations = (): Education[] => {
   return get(data, EDUCATIONS_KEY) ?? []
+}
+
+export const getContacts = (): Contact[] => {
+  const contacts = get(data, CONTACTS_KEY) ?? []
+  return contacts.map(({ image, ...contact }: Contact) => {
+    return {
+      image: [getImagePath(), image].join('/').trim(),
+      ...contact,
+    }
+  })
 }

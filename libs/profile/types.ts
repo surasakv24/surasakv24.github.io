@@ -49,3 +49,9 @@ export type Education = {
   end: string
   institution: string
 }
+
+export type Contact = {
+  title: string
+  image: string
+  text: string
+}
