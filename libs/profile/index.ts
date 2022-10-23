@@ -6,11 +6,7 @@ import {
   getProfileImageHeight,
 } from '@/libs/config'
 import type { JsonObject } from '@/libs/json/types'
-<<<<<<< HEAD
 import type { BrandTitle, ResumeFile, Profile, Social } from './types'
-=======
-import type { BrandTitle, ResumeFile, Profile } from './types'
->>>>>>> feat: add getProfile function to profile lib
 
 const data: JsonObject = require('@/data.json')
 
@@ -20,12 +16,9 @@ export const RESUME_FILE_KEY = 'resume'
 export const IMAGE_KEY = 'image'
 export const FIRSTNAME_KEY = 'firstname'
 export const LASTNAME_KEY = 'lastname'
-<<<<<<< HEAD
 export const SOCIALS_KEY = 'socials'
 export const JOB_TITLE_KEY = 'jobTitle'
 export const ABOUT_ME_KEY = 'aboutMe'
-=======
->>>>>>> feat: add getProfile function to profile lib
 
 export const getBrandTitle = (): BrandTitle => {
   return get(data, BRAND_TITLE_KEY) ?? ''
