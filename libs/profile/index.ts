@@ -14,6 +14,7 @@ import type {
   Experience,
   TechnologySkill,
   Skill,
+  Education,
 } from './types'
 
 const data: JsonObject = require('@/data.json')
@@ -30,6 +31,7 @@ export const ABOUT_ME_KEY = 'aboutMe'
 export const EXPERIENCES_KEY = 'experiences'
 export const SKILLS_KEY = 'skills'
 export const SKILL_TECHNOLOGIES_KEY = 'technologies'
+export const EDUCATIONS_KEY = 'educations'
 
 export const getBrandTitle = (): BrandTitle => {
   return get(data, BRAND_TITLE_KEY) ?? ''
@@ -102,4 +104,8 @@ export const getTechnologySkills = (): TechnologySkill[] => {
     })
   }
   return []
+}
+
+export const getEducations = (): Education[] => {
+  return get(data, EDUCATIONS_KEY) ?? []
 }
