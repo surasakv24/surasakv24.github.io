@@ -26,3 +26,5 @@ export type {
   NavbarNavProps,
   NavItemProps,
 } from './Navbar/types'
+
+export type { CardProps, CardContainerProps } from './Card/types'
