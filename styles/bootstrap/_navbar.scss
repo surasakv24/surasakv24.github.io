@@ -1,0 +1,20 @@
+.navbar-nav {
+  .nav-link {
+    position: relative;
+
+    &::after {
+      content: '';
+      background-color: var(--#{$prefix}navbar-active-color);
+      width: 0;
+      height: 0.15em;
+      bottom: 0.25em;
+      left: 0;
+      position: absolute;
+    }
+
+    &.active::after {
+      width: 100%;
+      transition: width 0.3s ease;
+    }
+  }
+}
