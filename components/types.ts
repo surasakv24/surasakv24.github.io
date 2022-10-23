@@ -28,3 +28,5 @@ export type {
 } from './Navbar/types'
 
 export type { CardProps, CardContainerProps } from './Card/types'
+
+export type { ImageLinkProps } from './Image/types'
