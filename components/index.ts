@@ -20,4 +20,4 @@ export { Navbar, NavbarDark, NavbarBrand, NavbarNav, NavItem } from './Navbar/'
 
 export { Card, CardDark, CardContainer, CardBody } from './Card'
 
-export { ImageLink } from './Image'
+export { ImageLink, ImageWithTitle } from './Image'

@@ -7,3 +7,9 @@ export type ImageLinkProps = {
   link: LinkProps
   a?: HTMLAttributes<HTMLAnchorElement>
 }
+
+export type ImageWithTitleProps = {
+  image: ImageProps
+  title?: string
+  containerClassName?: string
+}
