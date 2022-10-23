@@ -1,6 +1,8 @@
 {
   "imagePath": "/images",
   "filePath": "/files",
+  "profileImageWidth": 400,
+  "profileImageHeight": 400,
   "links": [
     { "href": "/", "title": "Home" },
     { "href": "/experiences", "title": "Experiences" },
