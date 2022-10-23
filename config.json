@@ -1,0 +1,14 @@
+{
+  "imagePath": "/images",
+  "filePath": "/files",
+  "profileImageWidth": 400,
+  "profileImageHeight": 400,
+  "links": [
+    { "href": "/", "title": "Home" },
+    { "href": "/experiences", "title": "Experiences" },
+    { "href": "/skills", "title": "Skills" },
+    { "href": "/educations", "title": "Educations" },
+    { "href": "/contacts", "title": "Contacts" }
+  ],
+  "footer": "@2020 by surasakv24@gmail.com"
+}

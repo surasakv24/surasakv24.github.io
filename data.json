@@ -1,0 +1,139 @@
+{
+  "firstname": "surasak",
+  "lastname": "viriyakitsombul",
+  "jobTitle": "web developer",
+  "image": "my.jpg",
+  "brandTitle": "SV",
+  "contacts": [
+    {
+      "title": "email",
+      "image": "icons8-gmail-logo-100.png",
+      "text": "surasakv24@gmail.com"
+    },
+    {
+      "title": "location",
+      "image": "icons8-location-100.png",
+      "text": "bangkok, thailand"
+    }
+  ],
+  "files": {
+    "resume": "surasak_viriyakitsombul.pdf"
+  },
+  "socials": [
+    {
+      "link": "https://www.instagram.com/sw_boy/",
+      "image": "icons8-instagram-circle-100.png",
+      "title": "instagram"
+    },
+    {
+      "link": "https://www.linkedin.com/in/surasak-viriyakitsombul-a6a3901a5/",
+      "image": "icons8-linkedin-circled-100.png",
+      "title": "linked"
+    },
+    {
+      "link": "https://twitter.com/surasakv24",
+      "image": "icons8-twitter-circled-100.png",
+      "title": "twitter"
+    }
+  ],
+  "aboutMe": [
+    "I'm a full stack web developer living in thailand.",
+    "I'm always eager to learn new things and work outside of my comfort zone.",
+    "When I'm not working on projects, I'm always reading and finding new ways to increase the ability.",
+    "Now, I'm finding the opportunity  to work in a fun and challenging work environment that will encourage me  to improve my skills."
+  ],
+  "experiences": [
+    {
+      "title": "programmer",
+      "start": "2014",
+      "end": "2010",
+      "company": "hexcube company limited",
+      "location": "bangkok, thailand",
+      "link": "https://hex-cube.com",
+      "details": [
+        "Designed and develop web applications with LAMP stack",
+        "Testing and editing web applications",
+        "Maintaining internet network and related equipment",
+        "Provided technical support to employees"
+      ],
+      "useTechnologies": [
+        {
+          "image": "icons8-php-logo-100.png",
+          "title": "PHP"
+        },
+        {
+          "image": "icons8-mysql-logo-144.png",
+          "title": "MySQL"
+        },
+        {
+          "image": "icons8-linux-96.png",
+          "title": "Linux"
+        },
+        {
+          "image": "icons8-apache-96.png",
+          "title": "Apache"
+        },
+        {
+          "image": "icons8-html-5-144.png",
+          "title": "HTML"
+        },
+        {
+          "image": "icons8-css3-144.png",
+          "title": "CSS"
+        },
+        {
+          "image": "icons8-javascript-144.png",
+          "title": "JavaScript"
+        },
+        {
+          "image": "icons8-bootstrap-144.png",
+          "title": "Bootstrap"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "technologies": [
+      { "image": "icons8-php-logo-100.png", "title": "PHP" },
+      { "image": "icons8-mysql-logo-144.png", "title": "MySQL" },
+      { "image": "icons8-html-5-144.png", "title": "HTML" },
+      { "image": "icons8-css3-144.png", "title": "CSS" },
+      { "image": "icons8-javascript-144.png", "title": "JavaScript" },
+      { "image": "icons8-linux-96.png", "title": "Linux" },
+      { "image": "icons8-bootstrap-144.png", "title": "Bootstrap" },
+      { "image": "icons8-typescript-144.png", "title": "TypeScript" },
+      { "image": "icons8-react-native-144.png", "title": "ReactJS" },
+      { "image": "icons8-nodejs-144.png", "title": "NodeJS" },
+      { "image": "laravel-logo.png", "title": "Laravel" },
+      { "image": "207px-Nextjs-logo.svg.png", "title": "NextJS" },
+      { "image": "icons8-git-144.png", "title": "Git" },
+      { "image": "icons8-docker-144.png", "title": "Docker" }
+    ]
+  },
+  "educations": [
+    {
+      "degree": "Bachelor of Industrial Technology",
+      "institution": "King Mongkut's University of Technology North Bangkok",
+      "faculty": "Electronics Technology (Computers)",
+      "gpa": "3.24",
+      "start": "2010",
+      "end": "2014"
+    },
+    {
+      "degree": "High Vocational Certificate",
+      "institution": "Buriram Technical College",
+      "faculty": "Electronics (Telecommunication)",
+      "gpa": "3.05",
+      "start": "2008",
+      "end": "2010"
+    },
+    {
+      "degree": "Vocational Certificate",
+      "institution": "Buriram Technical College",
+      "faculty": "Electronics",
+      "gpa": "2.77",
+      "start": "2005",
+      "end": "2008"
+    }
+  ]
+}
