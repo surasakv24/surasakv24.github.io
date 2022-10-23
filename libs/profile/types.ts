@@ -40,3 +40,12 @@ export type TechnologySkill = {
 export type Skill = {
   technologies?: TechnologySkill[]
 }
+
+export type Education = {
+  degree: string
+  faculty: string
+  gpa: string
+  start: string
+  end: string
+  institution: string
+}
