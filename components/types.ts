@@ -30,3 +30,5 @@ export type {
 export type { CardProps, CardContainerProps } from './Card/types'
 
 export type { ImageLinkProps, ImageWithTitleProps } from './Image/types'
+
+export * from './Figure/types'
